@@ -148,3 +148,13 @@ Vantagens do padrão de design Strategy
 Conclusão
 
 O padrão de design Strategy é uma técnica de programação muito útil que pode simplificar a utilização de algoritmos em um sistema, tornando o código mais modular, flexível e fácil de manter. No exemplo acima, utilizamos esse padrão para criar um robô que pode executar diferentes tipos de movimentos, mas ele pode ser aplicado em diversas outras situações em que diferentes abordagens para uma mesma tarefa são necessárias.
+
+## Padrão De Design Facade
+
+O padrão de design Facade é uma técnica que permite simplificar o acesso a um sistema complexo, fornecendo uma interface simples e unificada para o usuário.
+
+O Facade atua como uma camada de abstração que oculta a complexidade do sistema subjacente e fornece uma interface mais fácil de entender e usar. Ele pode ser usado para agrupar vários subsistemas em um único ponto de entrada, reduzindo a complexidade do código e tornando-o mais fácil de manter.
+
+O padrão Facade é particularmente útil em sistemas legados, onde as partes individuais do sistema podem ser difíceis de entender e modificar. Ele também pode ser usado em sistemas de terceiros, onde o acesso direto ao código-fonte pode não ser possível.
+
+Em resumo, o padrão de design Facade é uma técnica poderosa para simplificar o acesso a sistemas complexos e deve ser considerado em situações onde a complexidade do sistema é uma preocupação para os desenvolvedores ou usuários.

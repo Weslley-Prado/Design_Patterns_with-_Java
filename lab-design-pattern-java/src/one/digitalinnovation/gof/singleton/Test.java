@@ -1,5 +1,6 @@
 package one.digitalinnovation.gof.singleton;
 
+import one.digitalinnovation.gof.facade.Facade;
 import one.digitalinnovation.gof.strategy.Behavior;
 import one.digitalinnovation.gof.strategy.DefenseBehavior;
 import one.digitalinnovation.gof.strategy.FightBehavior;
@@ -37,5 +38,11 @@ public class Test {
 		robot.move();
 		robot.setBehavior(defense);
 		robot.move();
+		
+		//Facade
+		
+		Facade facade = new Facade();
+		facade.changeClient("Weslley", "19145620");
+		
 	}
 }
