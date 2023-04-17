@@ -1,5 +1,7 @@
 # Design Patterns With Java
 
+Este portfólio apresenta dois pequenos projetos: um em Java puro e outro com Spring Boot. O objetivo é demonstrar o uso de padrões de projeto, incluindo o Singleton, o Strategy e o Facade.
+
 ## Padrão Singleton
 
 O padrão Singleton é um padrão de projeto criacional que garante a existência de apenas uma instância de uma determinada classe em toda a aplicação, fornecendo uma forma de recuperá-la.
